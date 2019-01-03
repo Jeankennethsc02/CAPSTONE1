@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>L'AZURE POINTE</title>
+	<link rel='shortcut icon' type='image/x-icon' href='images/logo_transparent.png'>
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	
+	<!-- browser compatibility -->
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css"> <!-- ! IMPORTANT  -->
+
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+	
+	
+
+	<link rel="stylesheet" href="assets/css/style_contact2.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+
+	<style type="text/css">
+		
+		section {
+			background-color: #fff6f6;
+		}
+
+		.section-heading {
+			padding-left: 30px;
+			font-family: 'Cormorant Garamond', serif;
+		}
+
+		.section-description {
+			padding-left: 30px;
+			padding-top: 30px;
+			font-size: 1.1em;
+			font-family: 'Cormorant Garamond', serif;
+		}
+
+		.card {
+			background-color: #fceaea;
+			/*margin-left: 30px;*/
+		}
+
+		.form-header h3 p {
+			font-family: 'Cormorant Garamond', serif;
+		}
+
+		#contact-button {
+
+  		background-color: #264e70;
+  		border: none;
+  		color: white;
+  		padding: 16px 32px;
+  		text-align: center;
+  		font-size: 19px;
+  		margin: 4px 2px;
+  		/*opacity: 0.6;*/
+  		transition: 0.3s;
+  		border-radius: 5px;
+}
+
+	#contact-button:hover {
+		background-color: white;
+		color: #264e70;
+	}
+
+	#map-loc {
+		width: 100%;
+	}
+
+	.col {
+		margin: 20px;
+	}
+
+	.text-decoration {
+		font-size: 1em;
+    	font-family: 'Cormorant Garamond', serif;
+	}
+
+	.text-decoration2 {
+		font-size: 1.05em;
+    	font-family: 'Cormorant Garamond', serif;
+	}
+	</style>
+	
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> !IMPORTANT -->
+</head>
+
+<body>
+	<div id="whole-cont">
+		<nav id="transparent" class="navbar navbar-expand-lg navbar-light">
+			<div class="logo-border">
+				<a href="home2.html" class="navbar-brand">
+					<img id="logo" src="images/logo_transparent.png">
+				</a>
+				<a href="#" onClick="document.location.reload(true)" class="navbar-brand">
+					<p id="white-txt">L'AZURE POINTE</p>
+				</a>
+			</div>
+
+
+			<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button> -->
+
+			<!-- Customize burger -->
+			<div class="container-burger navbar-toggler" data-toggle="collapse" data-target="#navbar-nav" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<!-- END Customize burger -->
+
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul id="ul-nav" class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a id="nav-hover" href="home2.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a id="nav-hover" href="about2.html" class="nav-link">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a id="nav-hover" href="accomodation2.html" class="nav-link">Accomodations</a>
+					</li>
+
+					<li class="nav-item">
+						<a id="nav-hover" href="gallery2.html" class="nav-link">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a id="nav-hover" href="contact2.html" class="nav-link">Contact</a>
+					</li>
+
+					
+				</ul>
+			</div>
+		</nav>
+		<!-- end of navbar -->
+
+
+		<!-- Banner -->
+		<div id="image-contact">
+			<img src="images/room13.jpg" class="img-fluid" alt="responisve">
+
+			<!-- <div class="centered">Contact Us</div> -->
+		</div>
+		
+		<!-- End of Banner -->
+
+		<!-- CONTACT -->
+		<section class="section pb-5">
+
+			<!--Section heading-->
+			<!-- <h2 class="section-heading h1 pt-4">STAY IN TOUCH</h2> -->
+			<!--Section description-->
+			<p class="section-description pb-4">Send us a message to assist you with your enquiry. If you require immediate assistance, please contact our general line at the number below.</p>
+
+			<div class="container-fluid">
+				<div class="row">
+
+				<!--Grid column-->
+				<div class="col">
+
+					<!--Form with header-->
+					<div class="card">
+
+						<div class="card-body">
+							<!--Header-->
+							<div class="form-header blue accent-1">
+								<h3><i class="fas fa-envelope"></i> Write to us:</h3>
+							</div>
+
+							<p class="text-decoration2">Please fill in required fields in the enquiry form. We will attend to you as soon as possible.</p>
+							<br>
+
+							<!--Body-->
+							<div class="md-form">
+								<!-- <i class="fas fa-user prefix grey-text"></i> -->
+								<input type="text" id="form-name" class="form-control" placeholder="Name">
+								
+							</div>
+							<br>
+							<div class="md-form">
+								
+								<input type="text" id="form-email" class="form-control" placeholder="Email">
+								
+							</div>
+							<br>
+							<div class="md-form">
+								
+								<input type="text" id="form-Subject" class="form-control" placeholder="Subject">
+								
+							</div>
+							<br>
+							<div class="md-form">
+								
+								<textarea type="text" id="form-text" class="form-control md-textarea" rows="3" placeholder="Message"></textarea>
+								
+							</div>
+
+							<div class="text-center mt-4">
+								<!-- <button class="btn btn-light-blue">Submit</button> -->
+
+								<button id="contact-button">Submit</button>
+							</div>
+
+						</div>
+
+					</div>
+					<!--Form with header-->
+
+				</div>
+				<!--Grid column-->
+
+				<!--Grid column-->
+				<div class="col">
+
+					<!--Google map-->
+					<div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+						<iframe id="map-loc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d500953.07483218727!2d119.12367631790393!3d11.210120960538422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b65515ef5c9e0f%3A0xfc4e665b599b0455!2sEl+Nido%2C+Palawan!5e0!3m2!1sen!2sph!4v1544768681525" width="600px" height="450" frameborder="0" style="border:0"
+						frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+
+					<br>
+					<br>
+					<br>
+					<!--Buttons-->
+					<div class="container-fluid">
+						<div class="row text-center">
+						<div class="col-md-4">
+							<a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+							<p class="text-decoration">El Nido, Palawan 5313</p>
+							<p class="text-decoration">Philippines</p>
+						</div>
+
+						<div class="col-md-4">
+							<a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+							<p class="text-decoration">+63(2) 902 1685</p>
+							<p class="text-decoration">Mon - Fri, 8:00-22:00</p>
+						</div>
+
+						<div class="col-md-4">
+							<a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+							<p class="text-decoration">info@lazurepoint.com</p>
+							<p class="text-decoration">sale@lazurepoint.com</p>
+						</div>
+					</div>
+					</div>
+
+				</div>
+				<!--Grid column-->
+
+			</div>
+			</div>
+
+		</section>
+
+
+
+
+
+
+
+
+
+
+		<!-- 	-------------CONTACT------------------ -->
+
+
+		<!-- End of Container -->
+	</div>
+
+
+	<footer id="footer-color">
+		<div class="container-fluid expand-lg bg-dark text-center">
+			<span class="">
+				&copy;Copyright 2018 L'AZURE POINTE - All Rights Reserved | Web Design and Development by Kenn Sta. Clara
+			</span>
+		</div>
+	</footer> 
+
+
+
+
+	<!-- END OF FOOTER -->
+
+
+
+
+
+	<!-- JAVASCRIPT -->
+
+	<script type="text/javascript" src="assets/js/popper.min.js"></script> <!-- ! IMPORTANT  -->
+
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script> <!-- ! IMPORTANT  -->
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> <!-- ! IMPORTANT  -->
+
+	<script type="text/javascript" src="assets/js/home.js"></script> <!-- ! IMPORTANT  -->
+
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+        // Transition effect for navbar 
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 100) { 
+          	$('.navbar').addClass('solid');
+          	$('#ul-nav').addClass('solid');
+          } else {
+          	$('.navbar').removeClass('solid');
+          	$('#ul-nav').removeClass('solid');
+          }
+      });
+    });
+
+		function myFunction(x) {
+			x.classList.toggle("change");
+		}
+	</script>
+
+
+<!-- <script type="text/javascript">
+	
+	$( window ).ready(function() {
+
+		var wHeight = $(window).height();
+
+		$('.slide')
+		.height(wHeight)
+		.scrollie({
+			scrollOffset : -50,
+			scrollingInView : function(elem) {
+
+				var bgColor = elem.data('background');
+
+				$('body').css('background-color', bgColor);
+
+			}
+		});
+
+	});
+
+</script> -->
+
+</body>
+</html>
