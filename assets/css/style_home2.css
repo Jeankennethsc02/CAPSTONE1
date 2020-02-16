@@ -1,5 +1,7 @@
 body {
 	font-family: 'Futura Book',sans-serif;
+	overflow-x: hidden;
+	box-sizing: border-box;
 }
 
 /* Start of nav bar styles */
@@ -268,6 +270,8 @@ footer {
 }
 
 #shadow {
+	margin: 0 auto;
+	width: 700px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
 }
 
@@ -279,8 +283,43 @@ footer {
 .container3 {
 	/*background-color: #EBD5D5;*/
 	margin-top: 30px;
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-bottom: 80px;
+}
+
+.packages {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+}
+
+.grid {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+}
+
+ul {
+	list-style: none;	
+}
+
+.packages .grid li {
+    padding: 10px;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.thumb-title {
+	margin-top: 30px;
+	
+}
+
+
+.thumbnail-box {
+	display: flex;
 }
 
 .contaner3 button {
@@ -304,23 +343,20 @@ footer {
 
 }
 
-
-
 .thumbnail {
     /*position: relative;
     padding: 0px;*/
 /*    margin: 20px;*/
     /*align-content: center;*/
     text-align: center;
-    text-justify: inter-word;
+	text-justify: inter-word;
+	float: left;
 }
 
 #thumbnail-img {
 	width: 100%;
-    max-width: 400px;
+    /* max-width: 400px; */
 }
-
-
 
 
 /*.thumbnail img {
@@ -348,7 +384,7 @@ footer {
 
 /*background color change*/
 
-.slide {
+/* .slide {
   
   .inside {
     display: table;
@@ -356,7 +392,7 @@ footer {
     width: 100%;
     padding: 0 3em;
 }
-}
+} */
 
 /*FOOTER*/
 
@@ -371,8 +407,6 @@ footer {
 #horizontal-image {
 	display: inline-block;
 }
-
-
 /* Media query for nav bar mobile */
 @media (max-width: 480px) {
 	#transparent{
@@ -458,4 +492,31 @@ footer {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+}
 /* End of Burger */
+
+@media (max-width: 1140px) {
+    .packages .grid li {
+        flex-basis: 100%;
+		padding: 20px 100px 20px 100px;
+		text-align: center;
+    }
+}
+
+@media (max-width: 681px) {
+    .packages .grid li {
+        flex-basis: 100%;
+		padding: 20px 50px 20px 50px;
+		text-align: center;
+    }
+}
+
+@media (max-width: 414px) {
+    .packages .grid li {
+        flex-basis: 100%;
+		padding: 20px 30px 20px 30px;
+		text-align: center;
+    }
+}
+
+
