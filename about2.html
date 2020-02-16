@@ -53,8 +53,6 @@
 
 		}
 
-	
-
 		.about p {
 			
 			font-family: font-family: 'Dancing Script', cursive;
@@ -77,9 +75,6 @@
 			padding-bottom: 70px;
 			text-align: center;
 		}
-
-		
-
 	</style>
 	<!-- STYLE -->
 </head>
@@ -151,49 +146,50 @@
 
 			<div class="image-about">
 
-			<img src="images/family.jpg" class="img-fluid" alt="responsive" width="800px" height="800px">
+			<img id="shadow" src="images/family.jpg" class="img-fluid" alt="responsive" width="800px" height="800px">
 
 		</div>
 
 			<p class="text-center">Let it be your place to retreat, explore, connect or celebrate however you’d like. Go ahead, pinch yourself – this isn’t a dream. This is paradise.</p>
 
-			
-			<div class="container">
-				<div class="row">
-					<div class="col" "about-image">
-						<img src="images/kayakedit.jpg" class="img-fluid" alt="responsive" width="600px" height="600px">
-						
-					</div>
+			<!-- FIRST ROW -->
+			<div class="mission-vision">
+				<ul class="mission">
+					<li class="img-mission">
+						<img id="shadow about-img" class="img-fluid" src="images/kayakedit.jpg" alt="responsive" width="600px" height="400px">	
+					</li>
 
-					<div class="col">
+					<li class="text-mission">
 
-						<p id="top"><strong>MISSION</strong> We are comitted to consistently providing enjoyable recreation, safe environment and memorable vacation experience for every guest and every member of the staff. <strong>VISION</strong> To provide employment opportunities and economic development through tourism and recreation destination.</p>
+						<p><strong>MISSION</strong> We are comitted to consistently providing enjoyable recreation,
+							safe environment and memorable vacation experience for every guest and every member of the staff. <strong>VISION</strong> To provide employment opportunities and economic development through tourism and recreation destination.</p>
 
-						<p>Reaching out across 40 acres of lush landscaping edged by powdery white sands and crystalline lagoon. L' Azure Pointe represents the epitome of carefree elegance. It's 38 exquisitely designed accomodations feature over-water villas as well as breathtaking beach and garden villas.</p>
-						
-					</div>
-					
-				</div>
-				
+						<p>Reaching out across 40 acres of lush landscaping edged by powdery white sands and crystalline
+							lagoon. L' Azure Pointe represents the epitome of carefree elegance. It's 38 exquisitely designed
+							accomodations feature over-water villas as well as breathtaking beach and garden villas.</p>	
+						</li>	
+				<ul>	
 			</div>
 
 			<!-- SECOND ROW -->
-			<div class="container">
-				<div class="row">
-					<div class="col" >
-						<p id="top"><strong>L'Azure Pointe</strong> is located on a secluded and lush islet in crystal lagoon of El Nido, Palawan. The island is a unique botanical garden with 360 degrees panoramic views of a stunning beaches. The resort provides variety of amenities and activities including scuba diving, free diving, snorkeling, wind surfing, romantic dinner, island tours and waverunner adventures.</p>
-						 <p>This luxury resort offers 3 restaurants and lounges, spa, private helipad and infinity pool. Reachable by boat or plane, this private resort features authentic tropical island experience.</p>
+			<div class="mission-vision">
+				<ul class="vision">
+					<li class= "text-vision">
+						<p><strong>L'Azure Pointe</strong> is located on a secluded and lush islet in crystal
+							lagoon of El Nido, Palawan. The island is a unique botanical garden with 360 degrees panoramic
+							views of a stunning beaches. The resort provides variety of amenities and activities including
+							scuba diving, free diving, snorkeling, wind surfing, romantic dinner, island tours and 
+							waverunner adventures.</p>
+						 <p>This luxury resort offers 3 restaurants and lounges, spa, private helipad and infinity pool.
+							Reachable by boat or plane, this private resort features authentic tropical island experience.</p>	
+						 </li>
+
+					<li class="img-vision">
+						<img id="shadow about-img" class="img-fluid" src="images/about3.jpg" alt="responsive" width="600px" height="400px">
 						
-					</div>
-
-					<div class="col">
-						<img src="images/about3.jpg" class="img-fluid" alt="responsive" width="600px" height="600px">
-						
-					</div>
-
-
+					</li>
 					
-				</div>
+				</ul>
 				
 			</div>
 			<!-- SECOND ROW -->
@@ -214,31 +210,17 @@
 
 		</div> <!-- end od div for About -->
 
-
-
 		<!-- End of About -->
 
-	
-
-		
 				<!-- End of Container -->
 			</div>
-
-
 			<footer id="footer-color" class="text-center">
 				<div class="container-fluid expand-lg bg-dark">
 					&copy;Copyright 2018 L'AZURE POINTE - All Rights Reserved | Web Design and Development by Kenn Sta. Clara
 				</div>
 			</footer> 
 
-
-
-
 			<!-- END OF FOOTER -->
-
-
-
-
 
 			<!-- JAVASCRIPT -->
 
@@ -270,30 +252,6 @@
 					x.classList.toggle("change");
 				}
 			</script>
-
-
-<!-- <script type="text/javascript">
-	
-	$( window ).ready(function() {
-
-		var wHeight = $(window).height();
-
-		$('.slide')
-		.height(wHeight)
-		.scrollie({
-			scrollOffset : -50,
-			scrollingInView : function(elem) {
-
-				var bgColor = elem.data('background');
-
-				$('body').css('background-color', bgColor);
-
-			}
-		});
-
-	});
-
-</script> -->
 
 </body>
 </html>
