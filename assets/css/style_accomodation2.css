@@ -66,6 +66,10 @@ body {
 }
 
 /*BANNER TITLE*/
+
+.banner-img {
+	width: 100%;
+}
 .banner {
   position: relative;
   text-align: center;
@@ -244,11 +248,7 @@ button:hover {
 	color: white; 
 }
 
-
-
 /*End of ROOMS and SUITES Section*/
-
-
 
 /* FOOTER */
 
@@ -326,15 +326,10 @@ footer {
     max-width: 400px;
 }
 
-
-
-
 /*.thumbnail img {
     width: 100%;
     height: 300px;
 }*/
-
-
 #highlights{
 	text-align: center;
 	
@@ -353,17 +348,12 @@ footer {
 }
 
 /*background color change*/
-
-.slide {
-  
+ 
   .inside {
     display: table;
     height: 100%;
     width: 100%;
     padding: 0 3em;
-}
-}
-
 /*FOOTER*/
 
 footer {
@@ -373,29 +363,13 @@ footer {
 #footer-award {
 	width: 75px;
 	height: 75px;
-	
-
 }
 
 #horizontal-image {
 	display: inline-block;
 }
 
-
-/* Media query for nav bar mobile */
-@media (max-width: 480px) {
-	#transparent{
-	height: 60px;
-	position: absolute;
-	transform: translateY(0);
-	/*z-index: 999999;*/
-	background-color: #264e70;
-	z-index: 100;
-	width: 100%;
-	position: fixed;
-	}
-
-	#logo {
+#logo {
 	max-width: 30px;
 	width: 100%;
 	height: 30px;
@@ -467,4 +441,38 @@ footer {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+}
 /* End of Burger */
+
+/* 
+@media (max-width: 1200px) {
+	#room-box {
+		width: 360px;
+	}
+} */
+/* Media query for nav bar mobile */
+@media (max-width: 480px) {
+	#transparent{
+	height: 60px;
+	position: absolute;
+	transform: translateY(0);
+	/*z-index: 999999;*/
+	background-color: #264e70;
+	z-index: 100;
+	width: 100%;
+	position: fixed;
+	}
+
+
+@media (max-width: 1199px) {
+	#room-box {
+		width: 100%;
+		max-width: 360px !important;
+	}
+}
+
+/* @media (max-width: 1190px) {
+	#room-box {
+		width: 250px;
+	}
+} */

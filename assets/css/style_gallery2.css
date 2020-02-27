@@ -369,8 +369,6 @@ footer {
 }
 
 /*background color change*/
-
-.slide {
   
   .inside {
     display: table;
@@ -378,8 +376,6 @@ footer {
     width: 100%;
     padding: 0 3em;
 }
-}
-
 
 /*GALLERY*/
 
@@ -394,8 +390,11 @@ footer {
 
 /* thumbnail size */
 .gal-img {
+	width: 250px;
+	height: 200px;
 	max-width: 300px;
 	width: 100%;
+	image-rendering: pixelated;
 }
 
 #myImg {
