@@ -22,13 +22,13 @@ body {
 }
 
 #transparent.solid {
-  background-color: #264e70;
+  background-color: #022c43;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
   }
 
 #ul-nav.solid {
-  background-color: rgba(38,78,112,0.95);
+  background-color: transparent;
   transition: background-color 1s ease 0s;
   padding-left: 20px;
   }
@@ -377,15 +377,12 @@ footer {
 }
 
 /*background color change*/
-
-.slide {
-  
-  .inside {
+.inside {
     display: table;
     height: 100%;
     width: 100%;
     padding: 0 3em;
-}
+
 }
 
 /*FOOTER*/
@@ -409,8 +406,8 @@ footer {
 	display: inline-block;
 }
 
-#image-contact {
-	/*width: 1000px;*/
+.image-contact {
+	width: 100%;
 }
 
 
@@ -445,6 +442,7 @@ footer {
 .container-burger {
 	margin-right: 10px;
 }
+
 
 .navbar-nav {
 	background-color: rgba(38,78,112,0.90);

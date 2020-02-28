@@ -23,13 +23,13 @@ body {
 }
 
 #transparent.solid {
-  background-color: #264e70;
+  background-color: #022c43;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
   }
 
 #ul-nav.solid {
-  background-color: rgba(38,78,112,0.95);
+  background-color: transparent;
   transition: background-color 1s ease 0s;
   padding-left: 20px;
   }

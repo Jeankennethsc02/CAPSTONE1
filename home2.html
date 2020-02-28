@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<title>L'AZURE POINTE</title>
+	<title>MOVEN POINTE</title>
 	<link rel='shortcut icon' type='image/x-icon' href='images/logo_transparent.png'>
 	<link rel="stylesheet" href="assets/css/animate.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -23,6 +23,9 @@
 	<link rel="stylesheet" href="assets/css/style_home2.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+
+	<!-- AOS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<style type="text/css">
 		body {
@@ -51,7 +54,7 @@
 					<img id="logo" src="images/logo_transparent.png">
 				</a>
 				<a href="#" onClick="document.location.reload(true)" class="navbar-brand">
-					<p id="white-txt">L'AZURE POINTE</p>
+					<p id="white-txt">MOVEN POINTE</p>
 				</a>
 			</div>
 
@@ -100,9 +103,6 @@
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 
-				
-
-
 				<div class="carousel-item active">
 					<img class="d-block w-100 img-fluid" src="images/high.jpg" alt="beach2" height="758px">
 				</div>
@@ -137,16 +137,16 @@
 
 		<!-- Lazure -->
 
-		<section class="container2 text-center" data-background="#3498db">
+		<section class="container2 text-center " data-background="#3498db">
 			<img class="text-center img-fluid" src="images/logo_transparent.png" width="80px" height="60px">
 			<br>
 			<br>
-			<h3 class="text-center">L'AZURE POINTE</h3>
+			<h3 class="text-center">MOVEN POINTE</h3>
 			<h6 class="text-center">A Luxury Resort</h6>
 			<br>
-			<p class="text-center">A dose of bliss awaits at L'Azure Pointe, a pristine island situated on the gorgeous water of El Nido, Palawan which considered as one of the beautiful and famous beach destinations in the world. Immerse yourself in the nature’s unparalleled beauty and experience a sublime relaxation as you discover our perfect amenities and world-class service. 
+			<p class="text-center">A dose of bliss awaits at Moven Pointe, a pristine island situated on the gorgeous water of El Nido, Palawan which considered as one of the beautiful and famous beach destinations in the world. Immerse yourself in the nature’s unparalleled beauty and experience a sublime relaxation as you discover our perfect amenities and world-class service. 
 			</p>
-			<img id="shadow" src="images/lazure.jpg" class="img-fluid" alt="zoom" width="700px" height="700px">
+			<img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" id="shadow" src="images/lazure.jpg" class="img-fluid" alt="zoom" width="700px" height="700px">
 					
 		</section>
 <!-- End of Lazure -->
@@ -159,7 +159,7 @@
 
 					<ul class="grid">
 						<li>
-							<img id="thumbnail-img" src="images/jetski.jpg" alt="">
+							<img data-aos="fade-down-right" data-aos-duration="3000" id="thumbnail-img" src="images/jetski.jpg" alt="">
 							<p class="thumb-title"><strong>60% SAVINGS ON BEST AVAILABLE RATE</strong></p>
 							<p id="text-p">A summer to savour with island style breakfasts to ocean 
 								panoramas, cool seabreezes and sun-splashed fun for all. Come celebrate
@@ -169,7 +169,7 @@
 						</li>
 
 						<li>
-							<img id="thumbnail-img" src="images/newyear.jpg" alt="">
+							<img data-aos="fade-down" data-aos-duration="3000" id="thumbnail-img" src="images/newyear.jpg" alt="">
 							<p class="thumb-title"><strong>WRAP UP THE YEAR IN PARADISE</strong></p>
 							<p id="text-p">Available from 20 December 2019 till 02 January 2020. The year-end
 								festivities is set to be a week-long of fun! Little guests can look forward to
@@ -178,7 +178,7 @@
 						</li>
 
 						<li>
-							<img id="thumbnail-img" src="images/wedding.jpg" alt="">
+							<img data-aos="fade-down-left" data-aos-duration="3000" id="thumbnail-img" src="images/wedding.jpg" alt="">
 							<p class="thumb-title"><strong>CELEBRATE YOUR MILESTONES WITH US</strong></p>
 							<p id="text-p">Make your dream wedding come true in a haven that remains undisturbed and iconic.
 								We have the comforts of the indoors with a stunning sunset view, which makes it ideal for an
@@ -197,7 +197,7 @@
 
 	<footer id="footer-color">
 		<div class="container-fluid expand-lg bg-dark">
-			&copy;Copyright 2018 L'AZURE POINTE - All Rights Reserved | Web Design and Development by Kenn Sta. Clara
+			&copy;Copyright 2018 MOVEN POINTE - All Rights Reserved | Web Design and Development by Kenn Sta. Clara
 		</div>
 	</footer> 
 
@@ -205,6 +205,12 @@
 
 
 	<!-- JAVASCRIPT -->
+	<!-- AOS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>
+	<!-- AOS -->
 
 	<script type="text/javascript" src="assets/js/popper.min.js"></script> <!-- ! IMPORTANT  -->
 

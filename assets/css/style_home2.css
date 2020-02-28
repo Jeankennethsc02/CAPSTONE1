@@ -24,13 +24,13 @@ body {
 }
 
 #transparent.solid {
-  background-color: #264e70;
+  background-color: #022c43;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
   }
 
 #ul-nav.solid {
-  background-color: rgba(38,78,112,0.95);
+  background-color: transparent;
   transition: background-color 1s ease 0s;
   padding-left: 20px;
   }
@@ -99,6 +99,7 @@ h6 {
 		/*border-bottom: 2px solid green;*/
 		color: #C7B198;
 	}
+
 
 #bannertitle h1 {
 	color: white;
@@ -437,7 +438,8 @@ footer {
 }
 
 .navbar-nav {
-	background-color: rgba(38,78,112,0.90);
+	background: red;
+	/* background-color: rgba(38,78,112,0.90); */
 	width: 100%;
 	padding: 0;
 }
